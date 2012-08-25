@@ -1,0 +1,2870 @@
+
+@ujihisa
+寿命力
+
+@Shougo
+hi
+> vim-users.jpはおしゃれ http://blog.supermomonga.com/articles/emacs/emacs-and-vi.html
+
+@URL Info.
+Title: EmacsユーザーがVimを1ヶ月使った感想 « かなりすごいブログ
+
+@Shougo
+この記事よくできていますね。Emacs, Vimのことを冷静に分析できていると思います。
+さて、まずはunite.vimのバグ修正を……
+それにしてもChangeLogが不評なので、古いChangeLogは削除するか……
+
+@Github
+[neocomplcache/master] - Deleted obsolute changelog. - Shougo Matsushita : https://github.com/Shougo/neocomplcache/compare/291c89970701...ad771b3fab18
+
+@Shougo
+テストがてら、neocomplcacheのChangeLogのうち7.0未満を削除しました。
+他のプラグインも気が向いたら削除していきます。
+7.0の履歴は7.1リリース後に削除する予定。
+
+@Github
+[unite.vim/master] - Delted obsolute changelog. - Shougo Matsushita : https://github.com/Shougo/unite.vim/compare/91e4fc397f56...432b97509edb
+
+@Shougo
+unite.vi
+unite.vimのほうも3.0未満を削除しました
+unite.vimのドキュメント、changelogがなくても2500行あるな……
+
+@Github
+[unite.vim/master] - Improved resize behavior. - Shougo Matsushita : https://github.com/Shougo/unite.vim/compare/432b97509edb...db7a2b34a2d0
+
+@Shougo
+thinca: resizeの件の修正が終わりました。
+ようやくLTのスライドが作成できる……
+
+@Github
+[unite.vim/master] - Fixed set context in initialization. - Shougo Matsushita : https://github.com/Shougo/unite.vim/compare/db7a2b34a2d0...ec526b220ff7
+
+@Shougo
+うぼぁー。LTで話したいことが多すぎてLTに収まるのか不安になってきたぞ。
+
+@ujihisa
+ujihisa.vimのLTときいて
+泥酔なうう
+
+@Shougo
+いや、shibuya.elのほう。
+終わったら公開する予定。
+
+@ujihisa
+!
+
+@Shougo
+スライドが20枚くらいになりそうで、これ絶対 LT 枠じゃない……
+
+@ujihisa
+ww
+5分
+(/ 20 5)
+
+@Shougo
+「続きは懇親会で！」となるのが目に見えている
+
+@clojure
+4
+
+@ujihisa
+一分4枚
+
+@manga_osyo
+http://blog.glidenote.com/blog/2012/08/25/emacs-study/
+
+@URL Info.
+Title: Emacs勉強会でLTしてきた #Agile渋谷 - Glide Note - グライドノート
+
+@ujihisa
+!
+
+@manga_osyo
+spf13-vim が流行っていますね。
+
+@Shougo
+LT のスライドが 24 枚になってしまいました。どうすればいいでしょう。
+
+@raa0121
+high speed LT
+
+@ujihisa
+mexican dinnerだた
+
+@Shougo
+LT のスライドがとりあえず完成。疲れた。
+今回の発表も、LTの枠を越えた全力投球でいきます。
+
+@ujihisa
+!
+
+@Shougo
+本日、kozo2さんがEmacs温泉に参加しながらvimrc読書会に参加すると聞いて
+疲れたので一旦抜けます。
+vimrc読書会には参加(しながらVim scriptを修正する)予定です。
+
+@ujihisa
+w
+
+@raa0121
+今日vimrc読書会なのか 参加したい
+
+@ujihisa
+!
+
+@thinca
+起床。
+
+@syui
+>この記事よくできていますね。
+Shougoさん 返信ありがとうございます(^^)
+
+@kozo2
+おおふ
+Emacs温泉ではテーマっぽいこと掲げるようにいわれてるぽいんで
+Vimとの比較つうか同じような使用感にするにはとか
+
+@raa0121
+そんなプラグインありましたね
+
+@kozo2
+なぜかEmacs温泉でVimをテーマにしようとしてます
+僕はevil大好きなんで
+evilとhelm
+まあなんとなくそんなかんじ
+
+@thinca
+kozo2先生の活躍に期待。
+
+@kozo2
+foldのマーカー入れたり設定したりするのが結構たるいなってビムでは思う
+
+@manga_osyo
+24時間 vimrc読書会と聞いて。
+fold の {{{ とか書くのは確かにめんどくさいけど、そもそもあまり書かないなぁ。
+winname と tabpagename が欲しいワン（Ｕ＾ω＾）
+
+@manga_osyo
+http://ideone.com/50Ypt
+
+@URL Info.
+Title: Ideone.com | Online IDE & Debugging Tool
+
+@manga_osyo
+でけた
+これで現在の位置を保持したまま好きな場所へ移動することが出来る。
+
+@manga_osyo
+vimrc読書会まであと1時間。
+
+@thinca
+hey hey hoo
+
+@rbtnn
+hi
+
+@raa0121
+hi
+
+@manga_osyo
+vimrc ってもう上がっていますか？
+
+@rbtnn
+じゃあ、今上げる。https://github.com/rbtnn/reading-vimrc
+
+@URL Info.
+Title: rbtnn/reading-vimrc · GitHub
+
+@rbtnn
+上げたなう。
+
+@thinca
+わざわざ専用に上げたのは?
+
+@rbtnn
+rbtnn/dotfiles でもいいのだけど、今後もdotfilesの名前で残しておく保証がない...
+
+@thinca
+なるほど。まあ気を使わなくても…
+
+@rbtnn
+thinca: まぁそうですけど、vimrc読書会のページに行ってもしリンク切れだったらストレス溜まるじゃないですかぁ
+
+@thinca
+リンクはお互いにコンタクトさえ取れれば変更可能。
+
+@rbtnn
+thinca: コンタクトめんどい
+
+@thinca
+一言「リポジトリ変わった」と言う手間 > 専用のリポジトリを作る手間
+
+@raa0121
+そういえば、httpsがopen-browserで反応しない…？
+
+@manga_osyo
+わたしの環境だと問題なく開けました。
+>https の open-browser
+
+@raa0121
+あら… なんでやろう
+
+@kozo2
+Unite - helm command table
+https://docs.google.com/spreadsheet/ccc?key=0At9by4Q-zsNWdE53TUdiU1VlRG5YUkRUalZnRF9ZbkE#gid=0
+
+@URL Info.
+Title: Welcome to Google Docs
+
+@ujihisa
+hi
+
+@manga_osyo
+kozo2++
+Vi
+
+@ujihisa
+m
+
+@manga_osyo
+kozo2:おお、これ、どんな機能かも記述してあれば Vimmer でも追加しやすいかと思います！
+
+@raa0121
+github開けなかったなぁ…
+
+@ujihisa
+!
+
+@manga_osyo
+github も問題なく開けましたねぇ。
+それ以前に open-browser って最新版だったかしら…。
+
+@raa0121
+日本語の後にURLがあったらダメなのか…？
+
+@manga_osyo
+open-browser を更新して日本語を置いてみたけど問題ないなぁ。
+
+@raa0121
+俺のopen-browerがダメな確率か ちょっとupdateしてこよう
+
+@manga_osyo
+Vimプラグイン整理してて気づいたけど、他人の作った unite-source は4個ぐらいしか入れてない…。
+
+@thinca
+自作職人派
+
+@ujihisa
+L90
+" あまり使用していないのでコメントアウト。
+" NeoBundle 'ujihisa/unite-colorscheme'
+" NeoBundle 'ujihisa/unite-font'
+" NeoBundle 'thinca/vim-localrc'
+ぶわっ(AA略
+
+@rbtnn
+ujihisa: すいません
+
+@manga_osyo
+openbuf.vim って何やっているんだ。
+
+@ujihisa
+https://github.com/rbtnn/vital_member_complete.vim
+いいですね
+
+@URL Info.
+Title: rbtnn/vital_member_complete.vim · GitHub
+
+@ujihisa
+なぜvital_completeではなくvital_member_completeなのでしょう
+
+@thinca
+すいません。読むのは自由ですけどフライングは勘弁
+
+@raa0121
+NeobundleUpdateしたら
+E121: 未定義の変数です: g:neobundle_log_filename
+E15: 無効な式です: g:neobundle_log_filename != ''
+って言われた…
+
+@rbtnn
+ujihisa: vitalizer.vimの関数まで補完する気はなかったから(まぁ適当に名づけたので...)。vital#of()のオブジェクトのメンバのみと言う感じで....
+
+@ujihisa
+オブジェクトのメンバというより
+辞書のキーの補完ですね。うーん、
+
+@rbtnn
+まぁ確かに。> 辞書のキーの補完
+
+@ujihisa
+辞書のキーの補完といってしまうと正確だけど汎用的すぎてうれしくないので、
+むしろVim用語に存在しないオブジェクトのメンバというJavaなど由来の用語を比喩として使う現状の方がいいのかな・・・!
+さて、ぞくぞくと人が集まってきましたね。
+Vim意識の高まりを感じます
+
+@rbtnn
+Vimmer的には、辞書を辞書としてとらえるのか、オブジェクトとしてとらえるのか、（日本語が変...
+
+@ujihisa
+辞書とオブジェクトの両方の用語をもつ言語では、
+
+@thinca
+あと5分。
+
+@ujihisa
+オブジェクトというとそれのひな形であるクラスの存在を仮定しています
+一方vitalの各モジュールはそうではない感じですね
+ざわ・・・・ > あと5分
+
+@manga_osyo
+プラグイン整理して Vim の起動が3秒切ったワン
+後ネックなのは quickrun と vimfiler と neocomplcache ぐらいかなぁ…。
+
+@raa0121
+俺も整理しないとなぁ
+
+@ujihisa
+神速すぎる > 3秒
+
+@ebc_2in2crc
+hi
+
+@manga_osyo
+vi
+
+@umeyee
+vi
+
+@raa0121
+vi
+
+@rbtnn
+vim
+
+@yomi322
+vi
+
+@wiredool
+vi
+
+@thinca
+vi
+
+@ujihisa
+(what-time 'JST)
+
+@thinca
+=== 第8回 vimrc読書会 ===
+- 途中参加/途中離脱OK
+- 読む順はとくに決めないので、好きなように読んで好きなように発言しましょう
+- vimrc 内の特定位置を参照する場合は行番号で L100 のように指定します
+- 特定の相手に発言/返事する場合は先頭に username: を付けます
+- 一通り読み終わったら、読み終わったことを宣言してください。終了の目安にします
+
+@ujihisa
+8888888
+
+@manga_osyo
+https://github.com/rbtnn/reading-vimrc/blob/master/.vimrc
+
+@thinca
+本日の vimrc: https://github.com/rbtnn/reading-vimrc/blob/master/.vimrc
+
+@URL Info.
+Title: reading-vimrc/.vimrc at master · rbtnn/reading-vimrc · GitHub
+Title: reading-vimrc/.vimrc at master · rbtnn/reading-vimrc · GitHub
+
+@raa0121
+88888888888
+
+@manga_osyo
+（かぶってもーた
+
+@thinca
+DL用: https://raw.github.com/rbtnn/reading-vimrc/master/.vimrc
+では始めます！
+
+@ujihisa
+L250 windows恐いです・・
+
+@umeyee
+L7:has('win16')
+
+@thinca
+L4 ファイルを事前に置いておくことでプラグインを無効にする高等テク
+L7 行末に空白！
+
+@umeyee
+win16をまだ使う機会が・・
+
+@ujihisa
+L260 ほほう・・
+
+@manga_osyo
+L10 cache も Dropbox に置いているのか。
+
+@yomi322
+cache_pathがDropboxにあるのか
+
+@grauwoelfchen
+よろしくお願いしますー。(vi っていうのかな？)
+
+@daisuzu
+hi
+
+@ujihisa
+dropbox便利ですね
+
+@manga_osyo
+環境に固有したキャッシュは影響がないんだろうか。
+
+@thinca
+manga_osyo: 私もそれ思った
+
+@daisuzu
+みんなviって言ってる
+
+@rbtnn
+manga_osyo: いまのとこ、困っていません。環境に固有したキャッシュ
+
+@deris0126
+vi
+
+@thinca
+別に vi と言う必要はないですw
+
+@manga_osyo
+s:cache_path が何やっているか見てるなう。
+
+@grauwoelfchen
+あ、はいw ルールかと
+
+@manga_osyo
+あとは単に Dropbox の容量が気になるところ＞キャッシュファイル
+
+@thinca
+Windows の場合は PATH は自力で設定かー。
+L26
+
+@raa0121
+確かに環境変数のPATHよりわかりやすいな
+
+@Jagua
+遅刻hi
+
+@yomi322
+L65 neobundleのディレクトリ使い分けてるんですか？
+
+@thinca
+L36 ~\.windows 興味深い。
+
+@rbtnn
+thinca:Windowsでの環境変数の設定はめんどい。
+
+@manga_osyo
+L24 パスは直打ちしているな。
+
+@ujihisa
+L24心眼と聞いて
+
+@manga_osyo
+わたしは各環境ごとに環境変数を設定するだけの vimrc を用意してそこで環境変数を設定している。
+メインの vimrc はその環境変数を使用している。
+
+@daisuzu
+Windowsだとvimrcでパスを設定した方が楽なのかなぁ
+
+@manga_osyo
+環境変数じゃなくて g: でもいいけども。
+
+@thinca
+私はシェル(nyaos)でも使うのでがんばって環境の PATH 設定してますね
+
+@rbtnn
+yomi322: 新規で環境を構築するとき、neobundleを取ってくるのがめんどい。1回bundleしたらもう不要だけどw
+
+@raa0121
+WinのPATHは再起動しないと読んでくれないから…
+
+@wiredool
+PATHリストにしてから変換してるのか
+
+@yomi322
+rbtnn: なるほど。
+
+@manga_osyo
+環境変数は Vim で $ を設定すればいい気が。基本的に Vim 以外で使うことは想定していないなぁ。
+
+@thinca
+再起動しなくても PATH の変更適用されるよ?
+raa:
+(なんか今日宛先とか行数付け忘れるな…)
+
+@kocha2012
+L20 windowsって.vimってruntimepathにないんですね。(意識してなかった)
+
+@ujihisa
+w
+
+@manga_osyo
+PATH は適用されたりされなかったり不安定なので再起動するほうが無難な気が by XP
+
+@thinca
+cocha2012: Windowsだと ~/vimfiles ですね
+
+@daisuzu
+XPは環境変数追加したらとりあえずログオフしてる
+
+@thinca
+manga_osyo: 適用されてないと思ってるのは、起動ずみのプロセスでしょう。explorer.exe の辺りから(プログラムメニューとか)アプリを起動し直せば適用されてるはず
+
+@rbtnn
+そもそも、vimshellのため ＞ PATH設定
+
+@manga_osyo
+thinca:ふむ
+
+@daisuzu
+そういえばNeoBundleのdependsはまだ使ったこと無かったなぁ
+
+@thinca
+なんと言うか、環境変数とプロセスの関係を理解してない人って多い印象(一般論的に)
+
+@ujihisa
+名言ですね
+
+@thinca
+名言bot(aka ujihisa)に捕捉されたなう
+
+@ebc_2in2crc
+←Windows だと vimfiles そのまま使ってた人
+
+@wiredool
+L73 .gitも付いてて特別感。
+
+@yomi322
+L223 statusline 使って無いのか
+
+@ujihisa
+L486-493 なるほどなと感じました
+
+@thinca
+yomi: ほんとだ。すごい
+
+@ujihisa
+insert modeからも一発ジャンプ
+
+@rbtnn
+yomi322: statuslineは使ったり使わなかったりですね。
+
+@thinca
+使ったりもするのか！
+
+@manga_osyo
+L181 これ、bufnr("%") だけじゃだめなのかしら？
+
+@thinca
+:bnext は私は使わないなー
+
+@rbtnn
+気分しだい。> statusline
+
+@ujihisa
+L515-517 これどういうテクなのだろう
+
+@yomi322
+tablineにいろいろ出すとすぐ狭くなるからなー
+多段tablineほしい
+
+@rbtnn
+多段tablineほしい
+
+@raa0121
+地震なう＠釧路
+ひどい
+
+@manga_osyo
+tabline にはファイル名＋1つ上のディレクトリ名しか出していない。
+
+@thinca
+manga_osyo: ぱっと見だと、独自のリストを使っているように見える
+yomi: 欲しい！
+
+@y_sumida
+L515-517 私も気になります
+
+@manga_osyo
+thinca:それを利用している意図がよくわからんです。
+
+@wiredool
+L112 NeoBundle しっかりかくとのdepends複数同じやつが出てくるのか。
+
+@deris0126
+L511:Cを潰しているんですね。
+
+@rbtnn
+どっかからコピペしてきたからわからん。 > L515-517
+
+@manga_osyo
+あ、違った。index を勘違いしていた。
+ああ、そういうことか。
+
+@rbtnn
+多分、必要ない。 > L515-517
+
+@thinca
+L146 colorscheme は途中で変えない派か。まあ私も変えないけどー
+L170 みたいなカテゴリを分けるコメントの先頭に $ が付いてるのは何かのテクニックだろうか
+
+@deris0126
+L525:なるほど、改行ぬいての選択か
+
+@rbtnn
+/での検索のため > L170
+
+@tek_koc
+vimrcのすごさに震えたと思ったら、地震だった@札幌
+
+@raa0121
+thinca: 検索性じゃない？
+
+@yomi322
+fugitiveはvimshellのプロンプト用ですか？
+コマンド使ったりしてます？
+
+@ujihisa
+> 途中で変えない派
+ちょっと洗脳のためこれ置いておきますね http://vim-users.jp/2011/01/hack196/
+
+@URL Info.
+Title: Vim-users.jp - Hack #196: カラースキームは開発支援ツール
+
+@raa0121
+tek_koc: やばかったね
+
+@thinca
+rbtnn raa: やはり検索かー
+
+@rbtnn
+yomi322: Gdiffとfugitive#head(7)以外はまったく使っていません。gitコマンドはvimshellから
+
+@thinca
+北海道枠2名いるのか。すごい
+
+@deris0126
+526-527:モーションとの組み合わせはしないんですね。
+
+@manga_osyo
+tabpagebuflist の先頭って bufnr("%") が保証されていたりするんだろうか。
+
+@ujihisa
+海外枠多いですね
+
+@thinca
+北海道は海外
+
+@raa0121
+そしたら私にとっては本州組が海外ｗ
+
+@thinca
+おしょー: そんなことはない
+
+@yomi322
+rbtnn: なるほど。
+
+@y_sumida
+海外枠ってそういうこと...
+
+@manga_osyo
+thinca：┌（┌ ＾o＾）┐
+
+@yomi322
+vimshell って git commit とかできるんだっけ？前はできなかった気がしたけど
+
+@thinca
+y_sumida: ujihisa さんはガチで海外ですよ(カナダ)
+
+@manga_osyo
+L199 タブにこんなに情報を表示させているのか…。半端ない。
+
+@deris0126
+597-611:どういう時に0にするんだろう
+
+@Jagua
+L575 が日本語コメントなのがじわじわくる
+
+@y_sumida
+thinca: さすがvimrc読書会ですね
+
+@thinca
+yomi322: なんかできるようになってた記憶が。GIT_EDITOR が vim の remote を使ったのに書き換えられてたような。
+
+@Jagua
+私も英語インタフェース派です
+
+@thinca
+Jagua: www
+
+@rbtnn
+deris0126: メニューを使ってみたいときに
+
+@Lindan
+hi
+
+@raa0121
+hi
+
+@thinca
+L602 なにもいらない 渋い
+
+@yomi322
+thinca: まじすか。vimshell使わなくなった理由のひとつがそれだったりする
+
+@manga_osyo
+なにかおかしいと思ったら Vim に貼りつけた vimrc が1行ずれてた…。
+
+@yomi322
+これはvimshell再デビューあるかも
+
+@deris0126
+rbtnn:使ってみたいときｗ気分ですか
+
+@manga_osyo
+わたしはタブを多用しているから流石にこんなに情報は載せなてないなぁ…。
+
+@rbtnn
+deris0126: yes
+
+@deris0126
+僕もメニュー使うことないですね。
+
+@thinca
+メニューは存在を抹消してる
+
+@manga_osyo
+L219 これって設定しておく必要があるんですか？
+
+@rbtnn
+manga_osyo: タブはほとんど使わないので... そもそも画面に情報を表示しておくのが気にくわない。
+
+@yomi322
+osyo: わたしはこういうのなくてもtabline自動で更新されてますね
+
+@manga_osyo
+何かリアルタイムに更新する情報を載せているのかしら。
+
+@thinca
+manga_osyo: 私もそこ見てた。わざわざやる必要あるのかな?
+
+@rbtnn
+manga_osyo: これしておかないと、tabline更新されなくないですか？
+
+@raa0121
+tabにはLingr-vimの未読情報を載せてるくらいだなぁ
+
+@manga_osyo
+rbtnn:わたしはバッファ間の移動を視覚的に行いたいので基本的にバッファ＝タブですねぇ。
+
+@thinca
+rbtnn: 適当なタイミングで普通に更新されますよ
+
+@manga_osyo
+rbtnn:特にそんなことはないような？
+
+@tek_koc
+raa0121: 結構大きかったですね。地震のせいで、全然追いつけてないですw
+
+@rbtnn
+以前、カーソル位置をtablineに表示させていたので...
+
+@Lindan
+Vim script のタブ幅ってスペース2派とスペース4派どっちが多いんだろう（僕は4派）
+
+@raa0121
+manga_osyo: 私もバッファ＝タブ な感覚ですね
+
+@rbtnn
+スペース２派
+
+@manga_osyo
+わたしはタブ4派。2はどこでインデントがあっているのか分からない。
+
+@yomi322
+わたしはスペース2派
+
+@thinca
+Lindan: 私は2スペース派
+rbtnn: それでも :redraw くらいでよくないですか?
+
+@ujihisa
+2
+
+@daisuzu
+私はスペース4です
+
+@yyatsuo
+4派です。半々くらいですかね。
+
+@ebc_2in2crc
+スペース2派です
+
+@ujihisa
+ほんと半々くらいに分断されてますね
+
+@raa0121
+コピペで使ったりするからスペース混じってる…
+
+@Jagua
+スペース２派ノ
+
+@wiredool
+すぺーす２です
+
+@grauwoelfchen
+cursor_string って vimgrep に渡すのに使ってるんだ。
+
+@ujihisa
+2が勝利してきました
+
+@deris0126
+L670-673:男らし、い？
+
+@Lindan
+割とどちらもいるんですね，なるほど．2のほうがやや多いかな．
+
+@rbtnn
+:h redraw
+
+@manga_osyo
+タブがいないなー(´・ω・｀)
+
+@VimBots
+*:redr* *:redraw*
+:redr[aw][!] Redraw the screen right 
+@. When ! is included it is
+cleared first.
+Useful to update the screen halfway executing a script
+or function. Also when halfway a mapping and
+'lazyredraw' is set.
+
+@deris0126
+スペース２です
+
+@ujihisa
+タブを使うのがゆるされるのは小学生までと聞いて
+
+@raa0121
+間をとって3にすればいいのか
+
+@kocha2012
+スペース４
+
+@manga_osyo
+スペースだと移動がしづらいです！
+
+@yomi322
+textmanip ってなにするやつでしたっけ？
+
+@ujihisa
+vimって3文字ですよね、なのでインダントはスペース3にしましょう。
+
+@manga_osyo
+gvim は4文字なのでインデント4にしましょう
+
+@Lindan
+インデントをスペースからvim に…
+
+@ujihisa
+emacs lispはインデント5
+
+@thinca
+Bram は ts=8 の sw=2 派。タブとスペース混在。
+
+@manga_osyo
+インデント4じゃなくて2にする利点て何がありますか？
+
+@thinca
+ujihisa: kana さんが 3 スペースだったような…
+
+@ujihisa
+逆に言うとインデント4の利点は何だろう
+流石kanaさん・・
+
+@thinca
+manga_osyo: 横幅節約
+
+@raa0121
+rubyやってると２が見やすく感じる
+
+@Lindan
+L 90，あまり使っていないプラグインは NeoBundleLazy で遅延しといて，必要になったら手動で NeoBundleSource するという手もありますね．
+
+@manga_osyo
+thinca：そんなに深いネストすることがありますか？（震え声
+
+@thinca
+私は Vim script は78桁に収まるように書いているので(syntaxは除く)
+
+@kocha2012
+set listchars=tab:gvim ?
+
+@manga_osyo
+インデント2は見づらい。4ぐらいが調度良い（個人の感想です。
+
+@ebc_2in2crc
+raa0121: JS ですが感覚分かる気がします
+
+@Lindan
+Ruby と Haskell は 2 だなぁ．どうしてだろう．しかしなぜか奇数は無い．
+
+@ujihisa
+2,4,8
+6とかもないですね
+
+@thinca
+プログラマだからだっ！
+
+@raa0121
+2^n
+
+@tek_koc
+16……?
+
+@thinca
+次は16
+
+@manga_osyo
+インデント16だぜぇ。ワイルドだろう～
+
+@ujihisa
+32
+
+@thinca
+時代は64bit
+
+@Lindan
+set wrap してたらカオスになりそう
+
+@yomi322
+L511 C 使わないのだろうか
+
+@thinca
+話が逸れすぎた
+
+@raa0121
+16はワイ(ル)ドすぎる
+
+@umeyee
+L476:""のトグルいーなー。
+
+@manga_osyo
+L242 Vim 起動しながら vimproc ってビルド出来ましたっけ？
+
+@ujihisa
+y
+
+@manga_osyo
+Windows だとエラーになったような？どうだったかな。
+
+@rbtnn
+umeyee: vimコメントになれちゃいましたので... > ""
+
+@Lindan
+L 146 みて思ったけれど，has('gui') と has('gui_running') って何が違うんだろう．
+
+@ebc_2in2crc
+L520 <C-[> 誤爆用？
+
+@manga_osyo
+Lindan:vimrc の読込中かそうでないか？
+
+@thinca
+manga_osyo: 無理っすな。
+
+@manga_osyo
+thinca：やはり…。
+
+@Lindan
+manga_osyo: ふむ，gui_running は vim_starting + gui 的な感じですか… なるほど．
+
+@thinca
+rbtnn: さすが…
+
+@Lindan
+タブラインの拘りがすごい．
+
+@yomi322
+L623 unnamedplusとは
+
+@umeyee
+rbtnn:なるほど。
+
+@thinca
+Lindan: has('gui') は単に GUI 機能付きでビルドされたかどうかで、CUI版のvim でも1になることがある。has('gui_running') は GUI が起動しているかどうか
+
+@Lindan
+:help unnamedplus
+
+@rbtnn
+vimprocのビルド、できないのか。できているのかと思っていた。
+
+@manga_osyo
+Lindan：すみません、違ってました。gui_running　VimがGUIモードで起動している、もしくは間もなくする
+
+@grauwoelfchen
+L520 C-@ shift も押すのかな...
+
+@Lindan
+thinca: manga_osyo: なるほど，そういうことですか．ありがとうございます．
+yomi322: すべてのヤンクで * レジスタではなく + レジスタを使うとかそんなのだったと思います．
+
+@Shougo
+びむぅ……
+
+@Lindan
+ﾋﾞﾑｩ…
+
+@manga_osyo
+Vim
+
+@thinca
+えび grauwoelfchen: L520 は私もやってますね。
+
+@Shougo
+いろいろやっていたらこんな時間でした。こんにちは
+
+@thinca
+Shougo: hi
+
+@yomi322
+Lindan: ふむ。れじすたあまりわからない...
+
+@raa0121
+びむぅ…
+
+@ujihisa
+hi
+
+@ebc_2in2crc
+hi
+
+@Shougo
+とりあえずログを読んでおきます。
+> Lindan: ふむ。れじすたあまりわからない...
+Unite registerべんり
+
+@deris0126
+JISキーボードのときようでは？>C-@
+
+@grauwoelfchen
+thinca: あ、えびっていうんだ。かわいいですね。
+
+@manga_osyo
+vimfiler#set_execute_file って何やっているんだろう
+
+@ujihisa
+unnamedplusをumeplusと読んだ人は死亡
+
+@thinca
+ebc_2in2crc さんはいちいち打てないのでえびさんとお呼びしている
+
+@grauwoelfchen
+JIS キーボードだと shift いらないんですね。
+
+@ujihisa
+neocomplcacheがないと呼ぶことの出来ない人名
+
+@thinca
+lingr.vim に補完欲しい。
+
+@grauwoelfchen
+＠マークが"えび"なのかと勘違い...
+
+@Lindan
+L 237 sign.vim って自作プラグインですよね．どんな機能なんだろう．
+
+@ebc_2in2crc
+grauwelfchen: えびでおｋですー
+
+@ujihisa
+neco-lingr必要ですね
+
+@Shougo
+> NeobundleUpdateしたら
+> E121: 未定義の変数です: g:neobundle_log_filename
+> E15: 無効な式です: g:neobundle_log_filename != ''
+> って言われた…
+
+@ebc_2in2crc
+L564-567 は何をしてるのかしら？
+
+@Shougo
+おそらくneobundleのアップデートで読み込まれたのかな。
+再起動すればエラーにならないはず。
+
+@ujihisa
+ふむふむ
+
+@deris0126
+L507:*でvimgrepか。。。標準の*使わないんですね。
+
+@thinca
+L261 これはどこかで後で使うために代入してるのだろうか
+
+@manga_osyo
+L308 quickrun 0.6.0 で exec の :call って使えましたっけ？
+
+@yomi322
+えび: ウィンドウのサイズを変えるとかだったような...
+
+@manga_osyo
+ebc_2in2crc：ウィンドウのリサイズ？
+
+@grauwoelfchen
+cnoremap 知らなかった。
+
+@rbtnn
+thinca: 使っていないです。いつか使うかも用
+
+@manga_osyo
+言われてた
+
+@thinca
+manga_osyo: 使えないっすね。と言うか、最新版では cs の設定は入れてある。
+
+@Shougo
+ちなみに、私はopenbrowser使っていません。
+なぜかうまく動かない。
+
+@thinca
+s/\ze入れてある/標準に/
+
+@Shougo
+:Unite jump_pointで開けるので、そっちを使っています。
+
+@yomi322
+quickrunってsplitを''にしたらどう開くんだろう
+
+@ebc_2in2crc
+yomi322 osyo-san: どもです！（あとでためそう…
+
+@manga_osyo
+exec の :call delete は quickrun-hook で書いてしまったほうがいい感じかも。
+
+@deris0126
+L486-493:未だに自分的にしっくり来るキーバインドが見当たらないです。今は<C-p,n>でtab切り替えonly
+
+@Shougo
+> yomi322: 新規で環境を構築するとき、neobundleを取ってくるのがめんどい。1回bundleしたらもう不要だけどw
+どうしようもない
+ニワトリと卵問題。
+
+@thinca
+yomi322: :sp ですね。これ改めて見るとコード的に微妙だなぁ。
+
+@raa0121
+neobundleのcloneはもうサラで打てるようになりました そういえば
+
+@yomi322
+わたしはプラグインの初回インストールはshell scriptでやってる
+
+@Shougo
+> L20 windowsって.vimってruntimepathにないんですね。(意識してなかった)
+explorerでは.ファイルを作れないので……(コマンドプロンプトなら作れる)
+
+@Lindan
+僕も <C-j> と <C-k> はまだ何も割り当ててないなぁ…
+
+@manga_osyo
+L486 <C-j> でバッファの移動をしているのかー
+
+@thinca
+Shougo: だから今コマンドライン版を作ってたわけだけど…最終的には curl ... | sh とかで neobundle 入れられるとか。
+
+@Shougo
+さらで打つほどcloneしない
+
+@manga_osyo
+nnoremap <C-j> は空白行の挿入に使っているなぁ
+nnoremap <C-k> ha
+
+@ujihisa
+ふむふむ
+
+@manga_osyo
+一段上の行の削除
+
+@yomi322
+thinca: ほむ。heightとか指定なしでsplitか。
+
+@Shougo
+> Shougo: だから今コマンドライン版を作ってたわけだけど…最終的には curl ... | sh とかで neobundle 入れられるとか。
+そこまでしないといけないのか……。
+とりあえず、私はそっち方面に興味がない
+Vim script至上主義者なので
+
+@ujihisa
+emerge neobundle
+
+@Lindan
+neobundle の clone ぐらいなら手打ちでやるかなぁ．
+
+@manga_osyo
+L355 leader はスペースなのかー。
+
+@Jagua
+windows でも vimfiles/ だけじゃなくて .vim/ も見てくれるといいのにな
+
+@Lindan
+pacuman -S neobundle.vim
+s/pacuman/pacman
+
+@rbtnn
+hjklは移動コマンド。バッファやタブも容赦なく。
+
+@ujihisa
+neobundleパッケージなかった・・ > gentoo
+
+@raa0121
+Jagua: cygwinは見てくれます
+
+@ujihisa
+neocomplcacheとuniteはあるのにneobundleがないのはgentooのバグですね
+
+@manga_osyo
+Vim をビルドすると自動的に neobundle.vim が入るようになるんですか？
+
+@grauwoelfchen
+manfa_osyo: C-k は何に割り当てていらっしゃるんですか？
+
+@Jagua
+raa0121: おっ，なるほど
+
+@thinca
+しかしよく考えたら curl 打つくらいなら git clone 打っても大差ないな…
+
+@Lindan
+Emacs はパッケージ管理組み込まれましたが，Vim は無さそうですね…
+
+@Shougo
+>なんと言うか、環境変数とプロセスの関係を理解してない人って多い印象(一般論的に)
+私は環境変数とプロセスと端末に苦しめられている一人です
+> Emacs はパッケージ管理組み込まれましたが，Vim は無さそうですね…
+いつか組み込まれるでしょう。最近似たようなポストがあったような気がします
+
+@thinca
+ただ、clone した後の初回の install にコマンドライン版は有効。vimrc にプラグイン依存設定書きまくってると初回死ぬので。
+
+@manga_osyo
+grauwoelfchen:<C-k> は1つ上の行の削除ですね。要はカーソル行を基準とした行の追加と削除です。
+
+@Lindan
+Shougo: ふむ… そうなってくれるとありがたいですね．
+
+@ebc_2in2crc
+L642 検索時の強調表示は使わない派なのかな
+
+@grauwoelfchen
+manga_osyo: なるほどー。C-* 人それぞれで面白いですね！
+
+@thinca
+raa0121: cygwin は Windows と呼べるのか…
+
+@yomi322
+あーそうか。わたしはプラグインの設定は全部 has_plugin() でチェックしてるから問題なかった
+
+@manga_osyo
+（当たり前だけど）if s:enable_plugins_depend_on_neobundle が結構多い。
+
+@thinca
+ujihisa: え、ねおこんとuniteあるのか！
+
+@ujihisa
+y
+
+@Shougo
+> yomi322: Gdiffとfugitive#head(7)以外はまったく使っていません。gitコマンドはvimshellから
+vcs.vim！
+
+@yomi322
+Gentooすげぇ
+
+@Shougo
+> tablineにいろいろ出すとすぐ狭くなるからなー
+> 多段tablineほしい
+patch書きましょう。
+
+@thinca
+でも、更新遅い。今見たら unite 2.0 だった。
+
+@manga_osyo
+vcs.vim 実際どれぐらいのレベルなんだろうか。
+
+@ujihisa
+遅いというか全くメンテされてない感じですね
+
+@raa0121
+ArchLinuxにもUnite,neocon,neobundle作るか… Aurに
+
+@Lindan
+Arch にも vim-neocomplcache あったような．（AUR だけれど）
+
+@Shougo
+私は多段tablineには興味がないけど、実装されると嬉しい、って感じかな
+
+@yomi322
+わたし、気になります。vcs.vim
+
+@ebc_2in2crc
+L655-657 知らなかった。使わせてもらお
+
+@thinca
+yomi: 私も気になります
+
+@Shougo
+> Arch にも vim-neocomplcache あったような．（AUR だけれど）
+はい。以前検索したときに見つけました
+例えば、UbuntuだとConqueがパッケージ化されていたりします
+
+@ujihisa
+uniteとかneocomplcacheはgentooパッケージ化されてなくても
+
+@Shougo
+ただ、Conqueは一年ほど更新がなくて作者になにかあったのではないかと心配しているところ
+
+@ujihisa
+neobundleさえパッケージされていたら、残りをひっぱってこれるわけで
+逆なのは非常にもったいない
+というかvim本体のUSEに+neobundleがあるとかそういうレベルでいいはず。
+
+@daisuzu
+Vimの初回インストールにはneobundleだけじゃなくてuniteとvimprocも欲しい
+
+@thinca
+ujihisa: ebuild 書くと聞いて
+
+@ujihisa
+thincaさんがebuildを書いてくれるのを動作確認するという大事な仕事をします
+
+@thinca
+確か MacVim+kaoriya には neobundle 同梱されてるとの噂。
+
+@Shougo
+私はパッケージは最新版に追随しづらいからあまり好きじゃないなぁ。
+とはいえ、最新版を使う必要がないソフトウェアに対しては便利ですけどね。
+
+@Lindan
+Shougo パック的なメタパッケージ用意して，一発で入るようにすると良いのでは（
+
+@Shougo
+>確か MacVim+kaoriya には neobundle 同梱されてるとの噂。
+えっ、それは初耳。
+
+@ujihisa
+splhack++ > neobundle同封
+
+@ebc_2in2crc
+L666-668 cindent と smartindent 両方有効にするとどうなるんだろ
+
+@thinca
+ebuild 書いたことない＞＜
+
+@Lindan
+thinca: えっ 見当たりませんが…
+
+@Shougo
+昔はvimproc本体が同梱されていることもありましたね
+今はバイナリだけだったはず
+
+@thinca
+嘘だったかもしれない。
+曖昧な記憶による噂。
+
+@Shougo
+「更新に追随できない」はどこかで聞いたような話だな……
+
+@daisuzu
+残念ながらneobundle同梱されてなかった...
+
+@Shougo
+やはり
+自分は自分で入れるからパッケージなんて必要ないんだけど、必要な人がいるもんだなぁ
+Vim はフルカスタムする派。
+
+@thinca
+確かに頻繁に更新されているとパッケージ作る人が付いていけないよなぁ。
+
+@y_sumida
+見落としてるかと思って、grepかけたけどneobundle見つかりませんでした。
+
+@manga_osyo
+L359 どこで読んでいるのかなーと思ったら unite-menu で読んでいるのか。
+
+@thinca
+さて、1時間経過。
+
+@manga_osyo
+やっと半分読み終わった。
+
+@Shougo
+はい。私のプロダクトは一部を覗いて更新が早い。
+
+@thinca
+ずっと話してたからまだ半分読めてない…。
+
+@ujihisa
+総括
+大抵のvimrcは歴史的事情で書かれて整理されてないものがたくさんのこっています
+しかし
+
+@thinca
+ちょっとペース上げよう。
+
+@Lindan
+なかなか vimrc の密度濃い．
+
+@ujihisa
+こちらのvimrcはとてもきれいで、感動しました
+
+@manga_osyo
+L423 どこかで unlet s:commands した方が安全な気がする。
+
+@rbtnn
+unlet使わないなぁー
+
+@Shougo
+> vimshell って git commit とかできるんだっけ？前はできなかった気がしたけど
+一応できます。ただ、時々「できない」という報告が寄せられたりしていました。
+commitのときは別のプラグインを使ったほうがよいかもしれないです。
+
+@manga_osyo
+unlet は精神安定上ﾖﾛｼｲ
+
+@Shougo
+使用頻度の低いコマンドはvimshellで十分だと思います
+
+@ujihisa
+vim script言語自体が変わって、letとunletの両方を書くのではなく、ブロック単位のスコープが提供されるようになると理想的ですね。いわゆるlisp系言語のletのことです。
+
+@daisuzu
+vimからgitはfugitiveに頼りっきりです
+
+@ujihisa
+まあまず導入されることはなさそうですが・・
+
+@Shougo
+> Vim script のタブ幅ってスペース2派とスペース4派どっちが多いんだろう（僕は4派）
+私は2 。昔4。
+
+@thinca
+L422 unite-menu 活用してみたいと以前のアレで思いつつまだできてないなぁ。
+
+@Lindan
+L 507， expand("\<cword>") で良い気がする．
+
+@ebc_2in2crc
+L696 なんだろう
+
+@thinca
+と言うか、unite-menu って名前は失敗だったんじゃないだろうか。Vim には menu って組み込みの機能があっていかにも unite 向けなので unite-menu はこっちの機能の方が良かった説。
+
+@Shougo
+> cursor_string って vimgrep に渡すのに使ってるんだ。
+ふむ。今なら、:UniteWithCursorWord -no-quit vimgrep
+のほうがいいかな。
+
+@yomi322
+git add -pとかってvimshellから動くのかしら。EDITOR使うやつが不具合でてたんだっけか
+
+@rbtnn
+Lindan: patternを変えたい。expand("\<cword>")のパターンだとイヤだな場合がある。
+
+@thinca
+Shougo: vimgrep と unite-vimgrep は別物ですし。
+
+@Shougo
+git側でEDITOR上書きしていると動作しないので注意。
+
+@ujihisa
+ふむふむ
+
+@Shougo
+さすがに検出できない。
+
+@Lindan
+rtbnn: なるほど…
+
+@yomi322
+ほむほむ
+
+@thinca
+yomi322: singleton.vim を使ってると動く可能性が。
+
+@Shougo
+> Shougo: vimgrep と unite-vimgrep は別物ですし。
+別物とは？　確かに表示するインタフェースは異なりますが、結果は同一です。
+
+@thinca
+Shougo: だからインターフェースが違うと。誰もが常に unite 使いたいとは思わないように。
+
+@Shougo
+ああ、そういうことか。
+
+@ujihisa
+え、誰もが常にunite使いたいですよね
+
+@thinca
+そうでもない
+
+@Lindan
+L 516，inoremap <ESC> <ESC> とは…
+
+@manga_osyo
+L381 って何に使っているのかと思ったら :help で使っているのか。
+
+@Shougo
+んー、Vimのデフォルトがいいなら、別に無理に勧めないです。
+
+@thinca
+Lindan: されはさっき話題に出てて、必要ないっぽいです。
+
+@yomi322
+thinca: singleton.vimってターミナルのVimをサスペンドしてたら動かなくないですか？
+
+@Lindan
+thinca: すみません，一応行番号でページ検索かけて見たのですが，漏れてたっぽいです．
+
+@thinca
+yomi322: む、そうかも…。
+サスペンド中って remote の機能どうなるんだろ…
+
+@Shougo
+> manga_osyo (2012年08月25日 23時36分53秒):
+> L242 Vim 起動しながら vimproc ってビルド出来ましたっけ？
+>manga_osyo (2012年08月25日 23時37分32秒):
+> Windows だとエラーになったような？どうだったかな。
+できますが、Windowsだとエラーです。
+あと、再起動しないと反映されません
+
+@manga_osyo
+L427 unite-menu に結構色々と登録しているなぁ。わたしも登録しているけどあまり使ってないな…。
+
+@Lindan
+L 530 行頭と行末でカーソル位置をトグルできるの便利そう．
+
+@Shougo
+> vimfiler#set_execute_file って何やっているんだろう
+vimfilerにおける関連付け。
+unite-menuは私も使いこなせていないので、どうにかしたいという思いはあります。
+unite-menuに関しては、そのsourceそのものよりも
+このsourceを実現するために実装した機構のほうが重要なので、それに関しては満足しています。
+
+@rbtnn
+unite-menuはキーマッピングになやむ必要がないのでよいです！
+
+@manga_osyo
+なんというかよく使う機能はマッピングしていまうし、あまり使わない機能はそのまま存在を忘れてしまう…。
+
+@thinca
+manga_osyo: わかるー
+
+@ebc_2in2crc
+L468 これ便利そう。使ってみよう http://vim-users.jp/2011/07/hack223/
+
+@Lindan
+unite-menu，quick-match 付きで開くと便利そう．
+
+@URL Info.
+Title: Vim-users.jp - Hack #223: テキストを直感的に移動、複製する
+
+@manga_osyo
+L430 個人的には help function-list オススメ
+
+@ujihisa
+ふむふむ
+
+@yomi322
+L428 この先頭の0, 1, ... ていうのは何かあるんでしたっけ？
+
+@Shougo
+>ただ、clone した後の初回の install にコマンドライン版は有効。vimrc にプラグイン依存設定書きまくってると初回死ぬので。
+vimrc内でプラグインのインストールをチェックして、:finishすればOK
+
+@manga_osyo
+textmanip.vim も見た目のインパクトはあったけど結局使ってないなぁ…。
+
+@thinca
+textmanip は入れてみたけど、見ためのインパクトはいいけど特に使い道がなくて使わなくなっちゃったな。
+
+@ujihisa
+unite-textmanip
+
+@rbtnn
+yomi322: ソートするため。
+
+@thinca
+> vimrc内でプラグインのインストールをチェックして、:finishすればOK
+それが面倒。
+
+@Shougo
+> thinca (2012年08月25日 23時56分27秒):
+> yomi: 私も気になります
+ちょ……次世代vcs.vimの話は……
+
+@thinca
+そもそもインストールのためだけに vim 立ち上げて終わったら再起動とかが嫌だ。
+
+@yomi322
+rbtnn: なるほど。ソートですか
+
+@ebc_2in2crc
+thinca: なんとなく分かる気がしますね
+
+@rbtnn
+yomi322: よく使いそうなのを上に持ってきている気でいます
+
+@thinca
+L580 L582 片方は省略なのが気になる。
+
+@wiredool
+L672 swapオフなのか。こまめに保存すれば要らないのかなあ
+
+@yyatsuo
+82038203
+
+@Shougo
+>と言うか、unite-menu って名前は失敗だったんじゃないだろうか。Vim には menu って組み込みの機能があっていかにも unite 向けなので unite-menu はこっちの機能の方が良かった説。
+そもそも組み込みのmenuを使っていない……
+
+@ujihisa
+実際swapが必要になるシーンって人生のうち0.01%くらいの時間の気がします
+
+@Lindan
+Unite のソート順って sorter 指定したりしたらなんとかならないかな… sorter いじったことないので分からない．
+
+@Shougo
+組み込みのmenuって、Vim scriptから操作できなさそうなんですが、どうやって実装すればいいんでしょうか？
+
+@rbtnn
+コピペによる弊害 > L580 L582
+
+@Shougo
+> Unite のソート順って sorter 指定したりしたらなんとかならないかな… sorter いじったことないので分からない．
+なります
+
+@wiredool
+L674 なぜこんなところに…
+
+@manga_osyo
+Lindan：vimfiler みたいに unite.vim を使って sort したいワン
+
+@Shougo
+まぁ、素人はあまりいじらないほうがいいですけど。
+
+@thinca
+Shougo: いや、私も使ってないけど…知ってる人が見たら、unite-menu って名前から連想するのはそっちなんじゃないかなぁと。
+
+@Lindan
+シェルから複数 Vim 立ち上げることがあるので，稀に2つの Vim から同じファイル編集しようとして警告されて気づく > swap
+manta_osyo: したいワン
+
+@Shougo
+> Shougo: いや、私も使ってないけど…知ってる人が見たら、unite-menu って名前から連想するのはそっちなんじゃないかなぁと。
+そうかなぁ。
+
+@yomi322
+Lindan: よくありますね。swapの警告
+
+@thinca
+Shougo: 問題はそこですな。 >Vim script から操作できない
+
+@Shougo
+とりあえず、名前を変えるよていはない。
+
+@thinca
+私もできないもんか調べて絶望した覚えが。
+
+@wiredool
+邪魔になることのほうがおおいのか＞swap
+
+@Shougo
+Vimのメニューもスクリプトで扱えると便利なんですけどね
+どう見ても扱うためのインタフェースはない
+
+@rbtnn
+set系のコマンドは一番下に書いておくとGで移動できるのでなにげに楽でよい。
+
+@thinca
+やるとしたら、:menu を :redir して parse... ゾゾゾッ
+
+@Shougo
+> manga_osyo (2012年08月26日 00時18分30秒):
+> Lindan：vimfiler みたいに unite.vim を使って sort したいワン
+ふむ。検討はしておきます。
+が、その前にmatcherを動的に変更できるようにしたいんですよね。
+だからこのあたりの仕様は今後変更される可能性があります
+とはいっても、今はver.4.0のリリースを優先しているので、4.1以降でしょう
+
+@thinca
+L633 これ私もやってるけど、vimgrep は遅いので最近なんとかならんかと思っている…。しかし外部 grep だと Vim の正規表現が使えない。
+
+@Shougo
+あと、どういうソートが欲しいのか分からないので、sorter作ってほしいな……
+
+@Lindan
+L 668，cindent を set していたら smartindent いらなかった記憶が．
+Shougo: 了解です．ありがとうございます．
+
+@ebc_2in2crc
+Lindan: それ私も気になりました
+
+@ujihisa
+swapが必要になるのは停電やOS(Vim含む)のクラッシュの対策ですね
+
+@manga_osyo
+L522 o と O を潰しているのかー。
+
+@thinca
+vcs.vim が公開できるレベルになったら vimfiler にカラムのプラグイン化の要望を出そうと思ってるけど、それはまたずっと先のお話…
+
+@ujihisa
+名前付きファイルを編集してるときは無意識のうちにこまめに保存してると思いますが、
+
+@Shougo
+そういえば、vimfilerのsortもunite側でやっていればよかったのかな？
+
+@Lindan
+ebc_2in2crc: help によると要らないっぽいです．
+
+@wiredool
+L711 コメントに非文字紛れてる
+
+@rbtnn
+Lindan: そうなの？ まぁあまりindentを気にしていないです。＜、＞で調整
+
+@ujihisa
+無名バッファでいろいろ編集して保存してないときにVimが死ぬことも
+たまにあります
+こういうときにswapが真価を発揮しますね
+
+@Shougo
+> vcs.vim が公開できるレベルになったら vimfiler にカラムのプラグイン化の要望を出そうと思ってるけど、それはまたずっと先のお話…
+あ、そういえばそんな話もありましたね
+
+@thinca
+無名バッファはそもそも swap されないような
+
+@Shougo
+すっかり忘れていました
+
+@ujihisa
+ところがどっこい、.swpなどに。
+
+@thinca
+カラムのプラグイン化は個人的には vcs.vim がどうにかならないとあまり意味がないので今は要望を差し控えている。
+
+@Shougo
+thinca: とりあえず、vimfilerのIssuesに要望を出しといてください。
+
+@Lindan
+rbtnn: cindent のほうが高機能だからだったような気がします．
+テクニックバイブルに無名バッファを復活させる方法が載っていた記憶が
+
+@Shougo
+>カラムのプラグイン化は個人的には vcs.vim がどうにかならないとあまり意味がないので今は要望を差し控えている。
+つまり、vcs.vimの開発が加速すると……！
+
+@ujihisa
+ksk
+
+@wiredool
+L715 modeline で fileencoding はダメって何処かでみたような
+
+@thinca
+加速世界行きたい
+
+@Shougo
+vitalにopenbufの機能が取りこまれた割には動きがなかったので▼期待
+
+@ujihisa
+skk
+
+@grauwoelfchen
+indent 僕も書いてたので help 読んで直そう
+
+@Shougo
+えっ、Vimを使うことで加速するのではないんですか？
+
+@thinca
+wierdool: ダメですな。
+
+@manga_osyo
+L219 ふと、気づいたけど command 時に augroup していない。
+
+@rbtnn
+set cindentとかどうでもよい感じです。
+
+@manga_osyo
+s/command/autocmd/
+
+@thinca
+アクセル・ワールドのEDが「ユナイト」なのはすごく意味深ですね。
+
+@Shougo
+はい
+つまり、あれはVimのアニメ……！？
+
+@rbtnn
+RT アクセル・ワールドのEDが「ユナイト」なのはすごく意味深ですね。
+
+@Shougo
+親近感が湧きます
+
+@wiredool
+http://magicant.txt-nifty.com/main/2009/03/vim-modeline-fi.html
+
+@URL Info.
+Title: Vim の modeline で fileencoding を設定すべからず: まじかんと雑記
+
+@ebc_2in2crc
+rbtnn ワイルドすなあ
+
+@manga_osyo
+あ、ひと通り読み終わっていました。
+
+@ebc_2in2crc
+ひと通り読み終わりました
+
+@ujihisa
+me too
+
+@Jagua
+読み終わりましたん
+
+@deris0126
+読み終わりました。
+
+@umeyee
+cindent調べてたらindentexprなるものがあるとな
+
+@yomi322
+わたしも終わってました
+
+@Lindan
+ちょうど読み終わりました
+
+@wiredool
+読み終わりましたー
+
+@grauwoelfchen
+読み終わりました
+
+@thinca
+みんなはやい…!
+
+@umeyee
+終わりましたー
+
+@raa0121
+同じく
+
+@ebc_2in2crc
+読書会で他の方の読むの初めてですが、なんかすごく綺麗でしたー
+
+@thinca
+L683 set updatetime=1000 この数字はなんだろう。
+
+@rbtnn
+知らなかった。> modeline で fileencoding はダメ
+
+@ebc_2in2crc
+thinca: なんで 1000 かってことですか？
+
+@thinca
+L699 colorcolumn を常に設定してると邪魔になることないですか?
+えび: そうそう
+
+@raa0121
+そして裏でneobundle.vimのPKGBUILD書いてたんですが、パッケージでneobundle入れるとしたらどこに設定ファイルとか入れればいいんですかねぇ…
+
+@rbtnn
+あんま気にならない。> L699 colorcolumn
+
+@thinca
+読み終わったー
+
+@ebc_2in2crc
+デフォだと4000 だからこまめにバックアップ！…と思ったけど noswapfile してる？
+
+@Shougo
+> vcs.vim が公開できるレベルになったら vimfiler にカラムのプラグイン化の要望を出そうと思ってるけど、それはまたずっと先のお話…
+べつに今公開しても構わないんですよ？
+
+@ebc_2in2crc
+訂正 バックアップじゃなくてスワップ
+
+@ujihisa
+8888
+
+@rbtnn
+いらないですね ＞ updatetime
+
+@thinca
+oh >いらない
+
+@ebc_2in2crc
+なるほど。
+
+@Shougo
+> L699 colorcolumn を常に設定してると邪魔になることないですか?
+私は常に表示しています。
+
+@wiredool
+colorcolumnなんてあるのか。setlできるから何かにつかえそう。
+
+@Shougo
+邪魔にならないよう、色を調整していますね。
+
+@thinca
+L138-139 1行で書ける。
+
+@Lindan
+colorcolumn は，こないだ help 書いた時に使った．
+
+@thinca
+help 書きには必須 >colorcolumn
+
+@Shougo
+colorcolumnを設定していると
+1行があまり長くならないようになりますね。
+
+@thinca
+L90 ちょっと思ったけど、こここそ Lazy を使う場面では。
+
+@Lindan
+excite_trans とは…！
+
+@raa0121
+明日も早いので落ちます おやすみなさい
+
+@Lindan
+お疲れ様でした．おやすみなさい〜
+
+@thinca
+はーい
+
+@manga_osyo
+おつかれさまです
+
+@Jagua
+raa0121: おやすみなさいー
+
+@ebc_2in2crc
+おやすみなさいー
+
+@rbtnn
+Lazyなんだろって思いながら、ずっと無視していましたw
+
+@wiredool
+おつかれさまです。
+
+@yomi322
+raa0121: おやすみなさい-
+
+@deris0126
+お疲れ様です
+
+@thinca
+なんかみんな終わったっぽいので、切りもいいのでこの辺りで終わりにしましょうか。まだ読んでる人いますかー?
+
+@grauwoelfchen
+おつかれさまですー
+
+@umeyee
+おつかれさまです
+
+@Lindan
+rbtnn さん，もっといっぱいプラグイン使ってると思ってた．
+
+@thinca
+rbtnn: NeoBundleLazy ですね
+
+@Shougo
+さて、結局vimrc読書会なのに私はvimrcを1行も読んでいないわけです
+
+@thinca
+Shougo: えっ
+
+@LeafCage
+今から読み始めます。
+
+@thinca
+ちょww
+
+@Shougo
+一人読書会をしておくことにしましょう
+
+@ujihisa
+w
+ソロプレイ
+
+@Lindan
+あとで Twitter で指摘リプライの嵐が…
+
+@yomi322
+ｗｗｗ
+
+@LeafCage
+Dropboxに設定をまとめているのが参考になりますね
+
+@rbtnn
+thinca: NeoBundleLazyなのは知っているのですが、機能を知らない
+
+@Shougo
+> Shougo: えっ
+ログ漁りと返信に忙しかったのです……
+
+@ujihisa
+w
+
+@Shougo
+> thinca: NeoBundleLazyなのは知っているのですが、機能を知らない
+!?
+
+@thinca
+rbtnn: 詳しくは Shougo さんが解説してくれます
+さすがに今から読み始めるのを待ってると終わらないので、読書会自体は終わりにしたいと思いまーす。お疲れ様でしたー。
+
+@Lindan
+お疲れ様でした！
+
+@daisuzu
+おつかれさまでしたー
+
+@Jagua
+おつかれさまでしたー
+
+@yomi322
+おつかれさまでしたー
+
+@wiredool
+おつかれさまでしたー
+
+@ebc_2in2crc
+お疲れ様でしたー
+
+@manga_osyo
+rbtnn:つ http://d.hatena.ne.jp/rhysd/20120825/1345895478
+おつかれさまでした。
+
+@rbtnn
+遅延評価だろう的な感じでスルー ＞ NeoBundleLazy
+
+@URL Info.
+Title: neobundle.vim の遅延読み込みを使って gVim でしか使わないプラグインを定義する - sorry, unimplemented:
+
+@deris0126
+お疲れ様でしたー
+
+@grauwoelfchen
+ありがとうございましたー
+
+@ebc_2in2crc
+rbtnn: たくさん参考にさせて頂きました。 thx です！
+
+@Lindan
+GUI と CUI 両方使い分けている人には NeoBundleLazy おすすめです！
+
+@ujihisa
+NBL!
+
+@Shougo
+L27-31: vimproc#get_command_name()を使うと楽できそう。vimproc必須になってしまうけど。
+標準で実行ファイルのフルパスを得る関数があれば……
+
+@manga_osyo
+Jagua
+Lindan
+yomi322
+Shougo
+wiredool
+deris0126
+rbtnn
+ebc_2in2crc
+daisuzu
+yyatsuo
+kocha2012
+raa0121
+ujihisa
+grauwoelfchen
+manga_osyo
+umeyee
+y_sumida
+tek_koc
+thinca
+
+@rbtnn
+Lindan: 自分はGUIオンリーですね。
+
+@manga_osyo
+載ってない人がいたら教えて下さいワン
+
+@thinca
+さて、来週は ujihisa さんの予定ですが、その次の週辺り、rbtnn さん読みたいのありますか? (お友達紹介コーナー)
+
+@manga_osyo
+Lazy は単純に filetype に依存しているプラグインを使用する場合に使用している。
+clang_complete とか
+
+@Shougo
+> GUI と CUI 両方使い分けている人には NeoBundleLazy おすすめです！
+ふむ。一理ありますが、私はそういう用途には使っていないですね。
+
+@rbtnn
+thinca: you
+
+@Shougo
+私がLazyしているのは使用頻度が低いプラグイン。
+
+@LeafCage
+へー。NeoBundleで依存関係を記すことが出来るんですね
+
+@thinca
+御指名入りましたか。
+
+@Lindan
+filetype 依存のプラグインを指定しておくのも良いですね．そのファイルタイプのファイル読み込んだ時にちょっと時間かかりますが…
+
+@manga_osyo
+やはりマンボウが来てしまいましたか
+
+@Shougo
+二軍落ちみたいなものかな。
+
+@yomi322
+マンボウさん
+
+@thinca
+あ、まてよ。
+
+@Shougo
+>へー。NeoBundleで依存関係を記すことが出来るんですね
+はい。比較的最近追加した機能です。
+
+@Lindan
+使用頻度が低いものに使うのも良いですね．NeoBundleSource で一発で全部読めますし．
+
+@kozo2
+いまきた
+
+@Shougo
+まぁ、これの実装にはいろいろともくろみがありますが、まだ秘密。
+
+@thinca
+9/8 は用事があって参加できるかどうか不明。
+
+@Lindan
+マンボウrc…！
+
+@thinca
+kozo2: hi
+
+@kozo2
+hi
+
+@daisuzu
+起動速度が遅いプラグインをLazyして高速化！
+
+@manga_osyo
+再来週ですね＞9/8
+
+@ujihisa
+hi
+
+@thinca
+再来週は…9/8 じゃないか
+
+@ebc_2in2crc
+hi
+
+@rbtnn
+tokyovim #10
+
+@ujihisa
+thincaさんの脅威のvimrcと聞いて
+
+@manga_osyo
+と、いうことは ujihisa さん→thinca さんだからちょうどいないことに…。
+
+@thinca
+TokyoVim は来週。9/1
+
+@Lindan
+ｳｯ そういえば来週土日は研究室旅行で読書会参加できない可能性が…つらい．
+
+@wiredool
+1ふぁいるにするならhas('gui_running')すればいいのか > guiなNeoBundleLazy
+
+@kozo2
+何故かEmacs温泉でUniteとhelmの併用してる
+
+@thinca
+読まれるのは構わないですが、私のは1週後にずらしますか…。
+
+@ujihisa
+大学院生と聞いて
+helmのプラギンをリストアップするためのuniteプラギンがあると便利そうですね
+unite-helm
+
+@Lindan
+ujihisa: そうです．多分，ujihisa さんの母校です．
+
+@thinca
+おーそうか。kozo2 さん Emacs温泉参加中か。
+
+@kozo2
+Unite commandでもっと候補を取得したいという感がある
+
+@thinca
+さて、ここで宣伝。
+https://github.com/vim-jp/reading-vimrc/wiki/Request
+
+@Shougo
+L90:
+" あまり使用していないのでコメントアウト。
+Lazyを使ったほうが……
+
+@URL Info.
+Title: Request · vim-jp/reading-vimrc Wiki · GitHub
+
+@thinca
+こんなページ作ったのでよろしく。
+
+@LeafCage
+Lazyの効果とは
+
+@thinca
+あとで本家からもリンク張る予定。
+
+@Shougo
+> Unite commandでもっと候補を取得したいという感がある
+詳しく。
+
+@kozo2
+えとですね
+
+@yomi322
+みんな1000行とかあるんだなぁ
+
+@LeafCage
+L213
+カーソル動く度にタブライン更新してると遅くないですか
+
+@Shougo
+> Lazyの効果とは
+このコマンドを実行するだけではプラグインが読み込まれない。
+
+@ujihisa
+(/// > 母校
+
+@rbtnn
+LeafCage: 気にならないです。
+
+@Shougo
+> L213
+> カーソル動く度にタブライン更新してると遅くないですか
+おそらく遅い。が、statuslineよりはマシだと思われますね。
+
+@LeafCage
+Shougo:
+ではどういうときに読み込まれるのですか？
+
+@Shougo
+:NeoBundleSourceを実行したとき。
+つまり、読み込みのタイミングを必要なときまで遅延できるのです
+
+@thinca
+そうか。TokyoVim #10 来週か…。
+
+@Shougo
+このアイディア自体は、vundleと組み合わせるものでいくつか既にありました。
+
+@LeafCage
+あー。私のtablineはstatusline並みに色々やってるからやると遅いのか
+
+@Shougo
+でしょうね。
+statuslineには特に気をつけるべき。tablineより呼ばれる頻度が高いので。
+前はまったことがあります。
+
+@ujihisa
+#10改めてすごいですね
+
+@Lindan
+ついに2桁突入ですか．僕も一度参加したい…
+
+@thinca
+毎月開催ですからねー。
+
+@Shougo
+何度か参加している。が、thincaさんのようにほとんど皆勤は無理かな。
+
+@LeafCage
+東京は豪華でええのぅ
+
+@thinca
+よく考えたら vimrc読書会も次の次で10回かー。
+
+@Lindan
+そういえば関西はそういうのないですね…
+
+@thinca
+記念すべき10回に参加できないフラグ…
+
+@Shougo
+L99: dependsをかなり使いこなしていてびっくりしました
+私もいくつかは設定しているけど、あまりチェックしていないなー。
+テスト用みたいなものだし
+
+@ebc_2in2crc
+thinca: えっ
+残念…
+
+@LeafCage
+前回の関西のVim勉強会はujihisaさん以外はプレゼンターがEmacserというていらくだったから厳しいかも
+
+@ujihisa
+http://future-nyanco.blogspot.jp/2011/05/vim-7-8.html
+
+@thinca
+えび: さっきも言ったのだけど、9/8 は参加できない可能性があります。
+
+@URL Info.
+Title: 未来方向にむかって撃て、とにゃんこは言った。: Vim 勉強会 #7 (#8 という噂も) に参加しました
+
+@ujihisa
+Vim勉強会#8がいまのところ最後かなあ
+
+@Shougo
+L138, 139: filetype plugin indent on
+のほうがいいかな
+>前回の関西のVim勉強会はujihisaさん以外はプレゼンターがEmacserというていらくだったから厳しいかも
+なんて格差社会……
+東京はVimが、関西はEmacsが強いですね。勉強会的に。
+
+@kozo2
+emacsは名前空間ってのが1こぽくて関数とかの名前がhelm-"みたいな感じで
+
+@Shougo
+！
+L148: candy.vimを使っている！
+同士
+
+@manga_osyo
+あれ、007 で <C-a> すると 010 になりませんか？？・
+
+@kozo2
+たっぷりとれますよね
+
+@Lindan
+ぐぬぬ… > 関西は Emacs が強い
+
+@ujihisa
+正しいですね > 007 -> 010
+
+@rbtnn
+1行で書くのと、２行に分けて書くのでは違いがあるのですか？＞L138, 139
+
+@Lindan
+manga_osyo: 8進数です
+
+@manga_osyo
+ああ、そうか。
+8進数か…。
+
+@Shougo
+私はcandy.vimというのをフルカスタムして使っていますね
+
+@manga_osyo
+ちょこざいな。
+
+@Shougo
+> 1行で書くのと、２行に分けて書くのでは違いがあるのですか？＞L138, 139
+ないです
+
+@Lindan
+僕も一度 printf で頭に 0 付けててミスった記憶が…
+
+@manga_osyo
+あ、次回って ujihisa さんの vimrc 読むのは決定ですよね？
+
+@Shougo
+ヒント：set nrformats-=octal
+これで8進数を認識しなくなります
+
+@Lindan
+Shougo: おー，これは良いかも．
+
+@Shougo
+有名な設定だと思っていたのですが…。
+
+@manga_osyo
+hohou
+知れなかった。
+
+@rbtnn
+へぇー、知らなかった。＞set nrformats-=octal
+
+@kozo2
+でUniteでもそのvimscriptのlocalな関数ってんですかね。そういうのも全部Uniteでかっさらいたい、見たい
+
+@yomi322
+C-a / C-x ほとんど使わないなぁ
+
+@manga_osyo
+set nrformats=alpha,hex
+C-a C-x は地味に使っているなぁ
+
+@Lindan
+C-a 地味に使う
+
+@Shougo
+Vimのオプションはとても奥が深いです。
+私も全容は把握できていません
+
+@rbtnn
+C-a C-x は地味に使う
+
+@thinca
+ですね >次回はujihisaさん
+
+@deris0126
+マクロとの組み合わせで使いますね。>C-a
+
+@manga_osyo
+う、008 で C-a すると 9 になる…。
+
+@thinca
+あ、ujihisaさん、次回は来れるんですよね? 来れなくても開催しちゃいますが。
+
+@kozo2
+そういう意味でもっとUnite commandの結果を見たいっていった感じです
+http://d.hatena.ne.jp/thinca/20111228/1325077104
+
+@manga_osyo
+https://github.com/ujihisa
+
+@Shougo
+> emacsは名前空間ってのが1こぽくて関数とかの名前がhelm-"みたいな感じで
+はい。Vimはautoloadが名前空間になっていますね。
+
+@URL Info.
+Title: スクリプトローカルな関数を手軽に呼び出す - 永遠に未完成
+
+@Lindan
+ｳｳｯ 次回も出たい…
+
+@URL Info.
+Title: ujihisa · GitHub
+
+@rbtnn
+echo exists('ujihisa')
+
+@Shougo
+>でUniteでもそのvimscriptのlocalな関数ってんですかね。そういうのも全部Uniteでかっさらいたい、見たい
+ん？　これコマンドの話じゃない……？
+
+@kozo2
+む
+
+@LeafCage
+あーそういえばUniteのメニューとかも設定しないとなー。
+
+@Lindan
+unite-menu，何を入れようかどういう規則で選ぼうか迷って結局使っていない…
+
+@ujihisa
+w
+
+@kozo2
+む俺コマンドと関数の違いわかってなかったかもです
+
+@ujihisa
+http://github.com/ujihisa/config
+
+@URL Info.
+Title: ujihisa/config · GitHub
+
+@ujihisa
+vim scriptのコマンドと関数の違いは
+pythonのそれとだいたい同じです
+
+@Shougo
+>む俺コマンドと関数の違いわかってなかったかもです
+やっぱり……
+
+@ujihisa
+というかPythonのコマンドと関数の概念はVim script由来という可能性も
+否定できないです
+
+@Shougo
+Emacs Lispは全てが関数ですが、Vim scriptでは明確に分かれています
+
+@LeafCage
+quickhl.vimは後でインストールしよう
+
+@Shougo
+歴史的にコマンドの数が多いので、関数が少なくて厄介なところ
+
+@kozo2
+とにかくいま定義されてる使える関数orコマンドまとめておぼろげなkeywordから候補を全部かっさらう
+それがhelm-M-xでできてるようなんだけどVimではわかんないってのが
+
+@LeafCage
+L422-のUnite shortcutってのがどういう役割なのか分からないです
+
+@kozo2
+俺が思ってたことって言えるのかな...
+
+@Shougo
+>そういう意味でもっとUnite commandの結果を見たいっていった感じです
+つまり、:Unite functionを作ってほしいということですよね？
+
+@LeafCage
+let s:commands.candidatesの辞書の意味が
+
+@kozo2
+はい
+
+@Shougo
+ふむ。まぁ、個人的に欲しい場面が0ではないので検討はしておきます。
+デバッグには使えるかな。
+
+@LeafCage
+あ。Unite menuなのか
+
+@Shougo
+今はver.4.0のリリースで忙しいので、リリース後の4.1での検討事項になると思います。
+
+@ujihisa
+厳密にいうとEmacs Lispはすべてが関数なわけではなく特殊形式やマクロがあるはずですが、しかし関数的な呼び出し方ができるという意味では、そのとおりですね。Vimは呼び出し方の統一性は魔界村。
+
+@kozo2
+ふむう
+
+@manga_osyo
+第8回分を追加しました。 http://vim-jp.org/reading-vimrc/
+
+@URL Info.
+Title: vimrc読書会
+
+@Shougo
+L179:
+let bufnums = filter(range(1, bufnr("$")),"buflisted(v:val)")
+これのほうがよいです
+
+@ujihisa
+manga_osyo++
+
+@thinca
+manga_osyo: あざす！！
+
+@LeafCage
+manga_osyo:いつもお疲れ様です
+
+@manga_osyo
+https://github.com/vim-jp/reading-vimrc/wiki/Request も追加しようと思ったけどどこに書こうかしら
+
+@URL Info.
+Title: Request · vim-jp/reading-vimrc Wiki · GitHub
+
+@Shougo
+タブラインにバッファリストを表示しているみたいですね。私も昔はそうやっていました
+
+@LeafCage
+読み方が浅いから私の分かるところは読み終えた。これからコメントを追っていきます。
+
+@Shougo
+ちなみに、ステータスラインにバッファリストを表示すると重いのでやめたほうがいいです。
+私はまだL190
+
+@ujihisa
+ほほう
+
+@LeafCage
+buftabsみたいなことを自前でやってはるのですか
+
+@Shougo
+私も昔はbuftabs最高、みたいな時代がありました
+
+@thinca
+manga_osyo: 過去の開催の次かなぁ。
+
+@Shougo
+L242: WindowsではVim内でvimprocを更新できないので、やめたほうがいいかなぁ。サブのVimがあるなら別ですが。
+あと、最近のneobundle.vimにはbuildというキーがあって、ビルド用のコマンドを指定できます。
+
+@rbtnn
+https://gist.github.com/3396144
+
+@LeafCage
+ブラウザでもエディタでも何でもバッファやタブを大量に開く人なのでバッファリストを表示しても大して無意味なのです私は
+
+@URL Info.
+Title: percentage_of_attendance in reading-vimrc — Gist
+
+@manga_osyo
+thinca:おやくそくの次に書いてました。流れ的にここら辺かなぁーと。
+（バックナンバーの次だと目立たないという意味も込めて
+
+@thinca
+お、了解。
+
+@Shougo
+L262: あれ、クリップボードに実行したコマンドを入れている？
+何のためだろう
+
+@manga_osyo
+vimrc_example.vim も追加しておいたほうがいいかしら。
+
+@LeafCage
+MakeVimprocが正常に動くのなら真似したいと思いました
+
+@thinca
+manga_osyo: あーそうですねー。
+
+@kozo2
+Unite commandの第一引数ってんですかね
+
+@thinca
+(なんか任せっきりになってしまっている)
+
+@kozo2
+これのlistをUnite interfaceで見るのってできますかね
+
+@rbtnn
+Shougo: たまに前回のコマンドを少し変えて実行したい。
+
+@manga_osyo
+そういえば、lingr のログってどこまで最新のものが残るんだろう。
+
+@kozo2
+Unite sourceか
+
+@Shougo
+L285:autocmd FileType tweetvim :setlocal wrap
+ここの":"は要りません。
+autocmd FileType tweetvim setlocal wrap
+で動作する
+
+@manga_osyo
+日本語が書けないマン
+
+@Shougo
+> Shougo: たまに前回のコマンドを少し変えて実行したい。
+履歴を参照したり、プロンプトを移動するのではだめ？
+
+@thinca
+Shougo: そこの : はわかりやすさのためにわざと付ける人もいるしなぁ。
+
+@Shougo
+> (なんか任せっきりになってしまっている)
+はい……
+
+@rbtnn
+Shougo: pが楽
+
+@Shougo
+> Shougo: そこの : はわかりやすさのためにわざと付ける人もいるしなぁ。
+びむ。
+> Shougo: pが楽
+そうなんですか。私はプロンプトを移動することが多いかな。
+<C-y>でコピペとかよくやります
+
+@manga_osyo
+追加してみた http://vim-jp.org/reading-vimrc/
+
+@URL Info.
+Title: vimrc読書会
+
+@Shougo
+> Unite commandの第一引数ってんですかね
+> これのlistをUnite interfaceで見るのってできますかね
+ちょっと、これがよく分からないです
+
+@LeafCage
+あー。何やってるかと思ったら$PATHを手動で構築してるのか
+
+@rbtnn
+oh... <C-y>の存在知らなかった
+
+@manga_osyo
+各表題をもうちょっと大きくしたいなー。
+
+@Shougo
+L422: うぉ……unite-menuがすごいことになってる
+あふの1キーメニューを思いだした
+
+@LeafCage
+>Shougo: そこの : はわかりやすさのためにわざと付ける人もいるしなぁ。
+むしろ:を付けて正常に動くというのを今知った
+
+@manga_osyo
+Web で vimrc_example.vim の最新版（？）を参照する場合どこがいいだろう。
+
+@kozo2
+kiwanamiさんがVinariseが一番いいって言ってるw
+
+@manga_osyo
+あら、改行したと思ったらされていない。
+
+@LeafCage
+ていうか$PATHって環境変数いじらなくても正常に動くんか
+
+@Shougo
+うーん、unite-menuの定義はほとんど定型例が決まっている。
+> kiwanamiさんがVinariseが一番いいって言ってるw
+はい。私も以前宣伝しました。
+unite-menuの定義を簡略化できるようにしましょう。
+
+@LeafCage
+Unite-sourceというsourceがあった気がするのだが、それよりもやっぱりmenuを使う方がいいのだろうか
+
+@manga_osyo
+Unite-source と unite-menu は全然違う気が。
+
+@kozo2
+>> Unite commandの第一引数ってんですかね
+>> これのlistをUnite interfaceで見るのってできますかね
+>ちょっと、これがよく分からないです
+
+@Shougo
+うーん、むしろunite-sourceと似たようなことをunite-menuがやっていますね
+
+@Lindan
+Unite source は Unite 用ソースを一覧にするためのソースです
+
+@thinca
+LeafCage: Vim のコマンドは全て : で始まるし省略しても良い。
+
+@Lindan
+言っててわけわからなくなった
+
+@Shougo
+> kozo2 (2012年08月26日 01時22分14秒):
+> kiwanamiさんがVinariseが一番いいって言ってるw
+ぜひ、詳しい話を聞いてきてください。
+
+@manga_osyo
+結果的に似ているかも知れないけど、目的がぜんぜん違う。
+
+@kozo2
+なるほどちょっと Unite sourceじゃないですね
+
+@Shougo
+明日(今日)、バイナリ勉強会に潜入してvinariseの有用性を宣伝するつもりではあります。
+
+@LeafCage
+unite-menuをsourceのリストとして使ってる人が多いからunite-sourceが逆に要らんく思える
+
+@Shougo
+unite-sourceは汎用的なものだから仕方ないかな。menuはユーザがカスタムするためのもの。
+
+@manga_osyo
+いや、unite-source はいる。
+目的が全然違う。
+
+@kozo2
+Vimむずかしい
+
+@Shougo
+w
+はい。Vimは奥が深いです。Vim pluginも。
+
+@manga_osyo
+unite-source の一覧はここら辺を見ればいい気がする。 https://github.com/Shougo/unite.vim/wiki/unite-plugins
+URL Info.
+Title: unite plugins · Shougo/unite.vim Wiki · GitHub
+
+@manga_osyo
+(
+（だいぶ古いけど。
+
+@Shougo
+unite-menuにcandidatesの代わりとしてcommand_candidatesを用意して
+keyとvalueだけでメニューを定義できるようにすることを考えている。
+まぁ、ver.4.1以降ですね
+4.1以降に積み残しとなった機能が徐々に増えてきた気がする
+
+@manga_osyo
+unite-menu は辞書だけ定義して、unite#set_menu("hoge", dict) とかでもいい気がする。
+
+@thinca
+本体の関数にしちゃまずいでしょ。
+
+@Shougo
+L486: これはバッファリストを表示しているから必要なのだろうなぁ。懐しい設定。
+
+@manga_osyo
+thinca:関数じゃなくて q:unite_menu_config["hoge"] = dict とかでもいいです。
+
+@Shougo
+いや、それ今と変わらない
+
+@manga_osyo
+map(key, value) がいらないです。
+
+@Shougo
+ようやく読み終わった。
+mapは省略できるようにします。
+
+@LeafCage
+私もコメントを一通り読み終えました。
+
+@Shougo
+L709: 今なら、これを使ったほうがいいと思う。
+http://d.hatena.ne.jp/deris/20120818/1345291162
+
+@URL Info.
+Title: formatoptionsを設定するためのvim plugin書いた - derisの日記
+
+@Shougo
+https://twitter.com/kiwanami/status/239399215804080129
+
+@URL Info.
+kiwanami / kiwanami
+「evilは表面上はvimなんだけど、時々ひょっこりEmacsの顔が出てくる。そうなるともうダメ。」 #Emacs温泉
+
+@Shougo
+https://twitter.com/kiwanami/status/239398519264387073
+
+@URL Info.
+kiwanami / kiwanami
+Emacsでバイナリ編集しない。Vinarise毎日使ってる。川合さんのバイナリデバッグ伝説。みんな日常的にバイナリ扱ってる。 #Emacs温泉
+
+@Shougo
+vinariseベタ褒めされてしまった
+川合さんとは……？
+「Emacsでバイナリ編集しない」これは名言ですね
+勉強会でhexl-modeの代わりにvinariseで編集している光景を見れる日が来そうです
+
+@ujihisa
+川合さんはgaucheの作者ですね
+
+@Shougo
+https://twitter.com/kiwanami/status/239388364187508736
+
+@URL Info.
+kiwanami / kiwanami
+EmacsのMVCフレームワーク、Emacsでブログシステム、helmとuniteの対応表、自前vimプラグインの移植、なんか明日までにみんなすごい色々出来そう。でももう眠い。 #Emacs温泉
+
+@Shougo
+私も関西に居たら参加していたはず
+>川合さんはgaucheの作者ですね
+！
+これは本日vinariseの宣伝を頑張らないといけない。
+最近他のプラグインが忙しくて停滞気味ですが、これを機会になんとかしたいです
+
+
